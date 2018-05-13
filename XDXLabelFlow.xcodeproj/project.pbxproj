@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		574207CB20A58C0C00ED7877 /* XDXLabelFlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574207CA20A58C0C00ED7877 /* XDXLabelFlowManager.swift */; };
+		574207CE20A58C4700ED7877 /* XDXLabelFlowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574207CD20A58C4700ED7877 /* XDXLabelFlowItem.swift */; };
+		574207D020A58C7500ED7877 /* XDXLabelFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574207CF20A58C7500ED7877 /* XDXLabelFlowLayout.swift */; };
 		5781410A20A00A4D00A6BB4B /* XDXLabelFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5781410820A00A4D00A6BB4B /* XDXLabelFlow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5781411120A00B3200A6BB4B /* XDXLabelFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781411020A00B3200A6BB4B /* XDXLabelFlow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5727B7A120A839F000237858 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5727B7A220A839F000237858 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5727B7A320A83B4E00237858 /* XDXLabelFlow.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = XDXLabelFlow.podspec; sourceTree = "<group>"; };
+		574207CA20A58C0C00ED7877 /* XDXLabelFlowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDXLabelFlowManager.swift; sourceTree = "<group>"; };
+		574207CD20A58C4700ED7877 /* XDXLabelFlowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDXLabelFlowItem.swift; sourceTree = "<group>"; };
+		574207CF20A58C7500ED7877 /* XDXLabelFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDXLabelFlowLayout.swift; sourceTree = "<group>"; };
 		5781410520A00A4D00A6BB4B /* XDXLabelFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XDXLabelFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5781410820A00A4D00A6BB4B /* XDXLabelFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDXLabelFlow.h; sourceTree = "<group>"; };
 		5781410920A00A4D00A6BB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +42,9 @@
 			isa = PBXGroup;
 			children = (
 				5781410720A00A4D00A6BB4B /* XDXLabelFlow */,
+				5727B7A220A839F000237858 /* README.md */,
+				5727B7A320A83B4E00237858 /* XDXLabelFlow.podspec */,
+				5727B7A120A839F000237858 /* LICENSE */,
 				5781410620A00A4D00A6BB4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,9 +60,12 @@
 		5781410720A00A4D00A6BB4B /* XDXLabelFlow */ = {
 			isa = PBXGroup;
 			children = (
-				5781411020A00B3200A6BB4B /* XDXLabelFlow.swift */,
-				5781410820A00A4D00A6BB4B /* XDXLabelFlow.h */,
 				5781410920A00A4D00A6BB4B /* Info.plist */,
+				5781410820A00A4D00A6BB4B /* XDXLabelFlow.h */,
+				5781411020A00B3200A6BB4B /* XDXLabelFlow.swift */,
+				574207CF20A58C7500ED7877 /* XDXLabelFlowLayout.swift */,
+				574207CD20A58C4700ED7877 /* XDXLabelFlowItem.swift */,
+				574207CA20A58C0C00ED7877 /* XDXLabelFlowManager.swift */,
 			);
 			path = XDXLabelFlow;
 			sourceTree = "<group>";
@@ -135,6 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5781411120A00B3200A6BB4B /* XDXLabelFlow.swift in Sources */,
+				574207D020A58C7500ED7877 /* XDXLabelFlowLayout.swift in Sources */,
+				574207CE20A58C4700ED7877 /* XDXLabelFlowItem.swift in Sources */,
+				574207CB20A58C0C00ED7877 /* XDXLabelFlowManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
